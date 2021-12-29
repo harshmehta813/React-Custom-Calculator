@@ -9,8 +9,8 @@ export default function App() {
 	const { count } = getState();
 	return (
 		<div className="App">
-			<h2>React Custom Calculator</h2>
-			<h2>{count}</h2>
+			<h1>React Custom Calculator</h1>
+			<h1>{count}</h1>
 			<Counter />
 		</div>
 	);

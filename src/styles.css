@@ -1,9 +1,28 @@
 .App {
 	font-family: sans-serif;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
 }
 button {
 	margin: 5px;
 	padding: 5px;
 	border-radius: 0.5rem;
+	height: 40px;
+}
+.App > div {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+input {
+	border-radius: 0.5rem;
+	padding: 0.25rem;
+	text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
 }
